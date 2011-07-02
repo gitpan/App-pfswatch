@@ -13,10 +13,10 @@ WriteMakefile(
     META_MERGE => {
         resources => {
             license    => 'http://dev.perl.org/licenses/',
+            bugtracker => 'https://github.com/ysasaki/p5-app-pfswatch/issues',
             repository => 'git://github.com/ysasaki/p5-app-pfswatch.git',
         },
     },
     LICENSE   => 'perl',
     EXE_FILES => ['bin/pfswatch'],
-    test      => { TESTS => 't/*.t xt/*.t' },
 );
